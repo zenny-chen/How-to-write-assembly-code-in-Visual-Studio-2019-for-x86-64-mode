@@ -44,7 +44,7 @@
 
 <br />
 
-完成之后，我们在工具栏中将当前平台设置为“ **x86** ”，表示将当前程序变为为x86架构的64位模式。如图7所示：
+完成之后，我们在工具栏中将当前平台设置为“ **x64** ”，表示将当前程序变为为x86架构的64位模式。如图7所示：
 
 ![图7](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/7.JPG)
 
