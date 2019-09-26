@@ -2,6 +2,7 @@
 
 .code
 
+; 声明MyCAdd为一个外部函数
 extern MyCAdd : proc
 
 ; 将第一个参数减去第二个参数的值进行返回
