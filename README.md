@@ -38,3 +38,41 @@
 
 <br />
 
+在所弹出的对话框中，我们勾选上“masm”这一项即可让当前项目工程使用MASM汇编器，如图6所示，勾选完之后点击“确定”按钮关闭对话框。
+
+![图6](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/6.JPG)
+
+<br />
+
+完成之后，我们在工具栏中将当前平台设置为“ **x86** ”，表示将当前程序变为为x86架构的64位模式。如图7所示：
+
+![图7](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/7.JPG)
+
+<br />
+
+然后，我们在菜单栏中找到“项目”，点击后再选择最后的“属性”那一项。如图8所示：
+
+![图8](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/8.JPG)
+
+<br />
+
+在弹出的属性页对话框中，我们先选择“配置”项的“所有配置”，然后右边的“平台”项默认应该已经是“活动(x64)”。展开左侧的“C/C++”，点击“预编译头”，然后再中间“预编译头”那一项选择“不使用预编译头”。如图9所示：
+
+![图9](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/9.JPG)
+
+<br />
+
+此时，我们如果直接点击工具栏中绿色三角箭头按钮的话构建可能会失败，由于我们新增的汇编源文件没有参与编译。如果碰到这种情况，那么我们鼠标右键点击汇编源文件，然后再点击“属性”那一项，如图10所示：
+
+![图10](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/10.JPG)
+
+<br />
+
+最后，我们在“常规”项中找到“项类型”，再选择“Microsoft Macro Assembler”，这就是MASM的全程了。😄 如图11所示：
+
+![图11](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/11.JPG)
+
+<br />
+
+本教程提供了完整的demo，各位可以下载自行构建，源代码也很简单，便于学习。最后附赠微软官方的x86_64模式的函数调用约定：[x64 calling convention](https://docs.microsoft.com/en-us/cpp/build/x64-calling-convention?view=vs-2019)。
+
