@@ -68,7 +68,7 @@
 
 <br />
 
-最后，我们在“常规”项中找到“项类型”，再选择“Microsoft Macro Assembler”，这就是MASM的全程了。😄 如图11所示：
+最后，我们在“常规”项中找到“项类型”，再选择“Microsoft Macro Assembler”，这就是MASM的全称了。😄 如图11所示：
 
 ![图11](https://github.com/zenny-chen/How-to-write-assembly-code-in-Visual-Studio-2019-for-x86-64-mode/blob/master/11.JPG)
 
