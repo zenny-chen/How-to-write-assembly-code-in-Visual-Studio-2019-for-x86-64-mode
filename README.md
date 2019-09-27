@@ -77,3 +77,10 @@
 本教程提供了完整的demo，各位可以下载自行构建，源代码也很简单，便于学习。最后附赠微软官方的x86_64模式的函数调用约定：[x64 calling convention](https://docs.microsoft.com/en-us/cpp/build/x64-calling-convention?view=vs-2019)。    
 下面再提供x86_64模式下的MASM文档：[MASM for x64 (ml64.exe)](https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=vs-2019)。
 
+<br />
+
+### 以下是关于Visual Studio工具或MSVC编译工具相关的资料
+
+1. [Visual Studio 2019中，用于调试的即时窗口](https://docs.microsoft.com/zh-cn/visualstudio/ide/reference/immediate-window?view=vs-2019)
+2. [VC使用CRT调试功能检测内存泄漏](https://blog.csdn.net/lvwx369/article/details/41776965)
+
